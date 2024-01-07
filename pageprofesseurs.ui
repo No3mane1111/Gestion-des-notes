@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PageProfesseurs</class>
+ <widget class="QDialog" name="PageProfesseurs">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>713</width>
+    <height>577</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#PageProfesseurs{
+background:rgb(0, 170, 127);}</string>
+  </property>
+  <widget class="QPushButton" name="EnregisterNotes">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>140</y>
+     <width>301</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enregister Les Notes</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ValiderNotes">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>320</y>
+     <width>301</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Valider Les Notes </string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
